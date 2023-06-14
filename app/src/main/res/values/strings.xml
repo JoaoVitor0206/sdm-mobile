@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">HotelariaApp</string>
     <string name="app_hotelaria">App Hotelaria</string>
+    <string name="bot_o_criar">botao criar</string>
+    <string name="telefone">telefone</string>
+    <string name="em_il">email</string>
+    <string name="salvar">salvar</string>
+    <string name="n_me">nome</string>
+    <string name="cpf">cpf</string>
 </resources>

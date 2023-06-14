@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
-public class Cliente {
+public class Cliente implements Serializable{
     private String nome;
     private String telefone;
     private String email;
