@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.FormularioClienteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextNome"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/n_me"
+                android:inputType="text"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/editTextTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/telefone"
+                android:inputType="phone"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="@string/em_il"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/buttonSalvar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/salvar"
+                tools:ignore="VisualLintButtonSize" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
